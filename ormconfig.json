@@ -1,0 +1,12 @@
+
+{
+  "driver": "mysql",
+  "type": "mysql",
+  "host": "mysql-development",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "newsApi",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
